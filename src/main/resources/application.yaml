@@ -15,7 +15,7 @@ logging:
     org.springframework.ws: DEBUG
 server:
   hostname: localhost
-  port: 80
+  port: ${PORT:8080}
 mail:
   server:
     host: smtp.beget.com
